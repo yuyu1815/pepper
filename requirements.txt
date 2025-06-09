@@ -1,0 +1,26 @@
+# Flask server dependencies
+flask>=2.0.1
+Werkzeug>=2.0.1
+
+# Hugging Face model dependencies
+torch>=1.9.0
+transformers>=4.11.3
+accelerate>=0.5.1
+
+# Audio processing dependencies
+SpeechRecognition>=3.8.1
+numpy>=1.19.5
+wave>=0.0.2
+
+# HTTP request dependencies
+requests>=2.26.0
+
+# Logging and utilities
+python-dotenv>=0.19.0
+
+# uvコマンド実行のための依存関係
+uvicorn>=0.15.0
+fastapi>=0.68.0
+
+# Pepper SDK (optional, will be mocked if not available)
+# qi>=2.5.0  # Uncomment if you have access to the Pepper SDK
